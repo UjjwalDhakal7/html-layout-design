@@ -1,0 +1,246 @@
+
+.top-navbar {
+    padding: 5px;
+    background-color: aquamarine;
+
+    .center {
+        display: flex;
+        gap: 1rem;
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+
+.top-navbar-left {
+    background-color:antiquewhite;
+}
+
+.top-navbar-center {
+    padding-left: 250px;
+    background-color:aqua;
+}
+
+.top-navbar-right {
+    display: flex;
+    background-color: azure;
+    gap: 1rem;
+}
+
+.mid-navbar {
+    margin: 0, auto;
+    padding: 5px;
+    background-color:blueviolet;
+
+    .center {
+        display: flex;
+        width: 1000px;
+        margin: 0 auto;
+        gap: 30rem;
+
+        .logo {
+            background-color:aquamarine;
+        }
+
+        .newsletter{
+            background-color: aquamarine;
+        }
+
+    }
+}
+
+
+
+.bottom-navbar {
+    background-color: bisque;
+    padding: 5px;
+
+    .center {
+        display: flex;
+        width: 1000px;
+        margin: 0 auto;
+        gap: 16rem;
+    }
+}
+
+.style {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 3px;
+    background-color: brown;
+}
+
+.logo {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-items {
+    display: flex;
+}
+
+.article{
+    background-color:azure;
+    padding: 10px;
+    justify-content: space-between;
+
+    .center {
+        width: 1000px;
+        margin: 0 auto;
+
+        .article-wrapper {
+            display: flex;
+            gap: 5rem;
+        }
+    }
+}
+
+.article-wrapper-wrapper {
+    padding: 5px;
+    background-color: brown;
+    gap: 1rem;
+
+    .center {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+.news-content, .trending-content {
+    background-color: aliceblue;
+}
+
+.news-card, .trending {
+    display: flex;
+    background-color:aqua;
+    margin: 5px;
+    padding: 5px;
+    gap: 1rem;
+}
+
+.news-details {
+    background-color:aquamarine;
+    padding: 5px;
+}
+
+.trending-title, .news-title {
+    background-color:antiquewhite;
+    padding: 5px;
+}
+
+.date, .category {
+    background-color:aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    background-color: bisque;
+    text-wrap: balance;}
+
+.trending-card {
+    display: flex;
+    padding: 5px;
+    gap: 1rem;
+}
+
+.news-details {
+    padding: 5px;
+}
+
+
+.navbar-items {
+    background-color:aqua;
+    padding-right: 50px;
+}
+
+.btn {
+    display: flex;
+    padding: 5px;
+    gap: 1rem;
+}
+
+.carousel {
+    padding: 10px;
+
+    .center {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+.carousel-content {
+    background-color:blueviolet;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.footer {
+    background-color: antiquewhite;
+    padding: 10px;
+    
+    .center {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+
+.heading {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.social {
+        display: flex;
+        background-color: aquamarine;
+        justify-content: space-between;
+        padding: 10px;
+}
+
+.social{
+    display: flex;
+}
+.social-card {
+    background-color:brown;
+    padding: 10px;
+    margin: 10px;
+}
+
+.follow {
+    background-color:aliceblue ;
+}
+
+.foot-col {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.foot-col-title {
+    text-align: center;
+}
+
+.foot-col-content {
+    background-color:aliceblue;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+}
+
+.foot-col-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 50px;
+}
+
+.foot-btn {
+    display: flex;
+    gap: 1rem;
+    text-align: left;
+}
