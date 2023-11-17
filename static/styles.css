@@ -157,6 +157,7 @@
 
 .btn {
     display: flex;
+    justify-content: center;
     padding: 5px;
     gap: 1rem;
 }
@@ -182,6 +183,11 @@
     padding: 10px;
     
     .center {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .trademark {
         width: 1000px;
         margin: 0 auto;
     }
